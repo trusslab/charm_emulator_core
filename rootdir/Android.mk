@@ -57,9 +57,7 @@ ifeq ($(SANITIZE_LITE),true)
 SANITIZE_ASAN_OPTIONS_FOR := \
   adbd \
   ATFWD-daemon \
-  audioserver \
   bridgemgrd \
-  cameraserver \
   cnd \
   debuggerd \
   debuggerd64 \
@@ -73,13 +71,8 @@ SANITIZE_ASAN_OPTIONS_FOR := \
   logcat \
   logd \
   lowi-server \
-  media.codec \
-  mediadrmserver \
   media.extractor \
-  mediaserver \
-  mm-qcamera-daemon \
   mpdecision \
-  netmgrd \
   perfd \
   perfprofd \
   qmuxd \
